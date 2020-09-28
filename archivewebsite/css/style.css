@@ -1,3 +1,31 @@
 /* CSS Styles */
 
+html{
+  background-color: rbg (0,0,0);
+}
 
+.desktopBG{
+  background: url(../images/background.png) no-repeat center center fixed;
+  background-size: contain;
+}
+
+h1{
+  color: rgb(0,0,0);
+}
+
+p{
+  color: rgb(0,0,0);
+  font-size: 30px);
+}
+
+.greenDiv{
+  width: 200px;
+  height: 200px;
+  color: green
+}
+
+.yellowDiv{
+  width: 300px;
+  height: 400px;
+  color: yellow
+}
