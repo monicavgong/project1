@@ -1,4 +1,8 @@
 /* CSS Styles */
+@font-face{
+  font-family: PixelSplitter;
+  src: url(PixelSplitter-Bold.ttf);
+}
 
 html{
   background-color: rgb(207, 137, 137);
@@ -15,6 +19,7 @@ html{
 }
 
 h1{
+  font-family: PixelSplitter;
   color: rgb(0,0,0);
   margin-top: 0px;
   padding-top: 10px;
@@ -23,6 +28,7 @@ h1{
 p{
   color: rgb(0,0,0);
   font-size: 10px);
+  font-family: Helvetica;
 }
 
 body{
@@ -32,9 +38,10 @@ body{
 
 .TitleText{
   position: absolute;
-  top: 20%;
-  left: 32%;
-  font-size: 20px
+  top: 21%;
+  left: 26%;
+  font-size: 20px;
+  font-family: PixelSplitter;
 }
 
 .ParagraphText{
@@ -42,12 +49,27 @@ body{
   top: 25%;
   left: 26%;
   font-size: 15px;
-  color: white;
-
+  color: black;
 }
 
 .CenteredText{
   text-align: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: white;
 }
 
 .center{
@@ -79,10 +101,6 @@ body{
   padding-top: 150px;
 }
 
-.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .faceshop{
   position: absolute;
   top: 55%;
@@ -94,6 +112,14 @@ body{
   position: absolute;
   top: 18%;
   left: 25%;
+  display: inline-block;
+  z-index: -1;
+}
+
+.faceshop3{
+  position: absolute;
+  top: 75%;
+  left: 85%;
   display: inline-block;
   z-index: -1;
 }
@@ -135,8 +161,8 @@ body{
 
 .goback{
   position: absolute;
-  top:175%;
-  left: 100%;
+  top: 290%;
+  left: 160%;
   display:inline-block;
 }
 
