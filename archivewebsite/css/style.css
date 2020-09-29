@@ -160,7 +160,7 @@ a:active {
 }
 
 .goback{
-  position: absolute;
+  position: fixed;
   top: 290%;
   left: 160%;
   display:inline-block;
