@@ -231,6 +231,16 @@ body{
   position: relative;
 }
 
+.zoom {
+  padding: 10px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
 /* flexboxstuff */
 
 .row{
