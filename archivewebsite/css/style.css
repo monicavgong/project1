@@ -81,10 +81,44 @@ body:{
 
 .rawimages{
   position: absolute;
-  top: 200%;
-  left: 15%;
+  top: 36.7%;
+  left: 64%;
   display:inline-block;
+}
 
+.goback{
+  position: absolute;
+  top:175%;
+  left: 100%;
+  display:inline-block;
+}
+
+.eyefolder{
+  position: absolute;
+  top:100%;
+  left: -75%;
+  display:inline-block;
+}
+
+.earfolder{
+  position: absolute;
+  top:150%;
+  left: -75%;
+  display:inline-block;
+}
+
+.nosefolder{
+  position: absolute;
+  top:250%;
+  left: -75%;
+  display:inline-block;
+}
+
+.mouthfolder{
+  position: absolute;
+  top:200%;
+  left: -75%;
+  display:inline-block;
 }
 
 #maincontainer{
