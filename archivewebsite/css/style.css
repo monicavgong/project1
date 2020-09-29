@@ -14,7 +14,7 @@ html{
   background-size: cover;
 }
 
-h1
+h1{
   color: rgb(0,0,0);
   margin-top: 0px;
   padding-top: 10px;
@@ -25,21 +25,21 @@ p{
   font-size: 10px);
 }
 
-body:{
+body{
   padding: 0px;
-  margin:
+  margin: 0px;
 }
 
 .TitleText{
   position: absolute;
-  top: 15%;
-  left: 34%;
+  top: 20%;
+  left: 32%;
   font-size: 20px
 }
 
 .ParagraphText{
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 26%;
   font-size: 15px;
   color: white;
@@ -50,10 +50,33 @@ body:{
   text-align: center;
 }
 
-.center {
+.center{
   margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+.relativePos{
+  width: 50px;
+  height: 50px;
+  left: 30px;
+  top: 50px;
+  position: relative;
+  background-color: orange;
+}
+
+.blockPos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paddingCenter{
+  padding-top: 190px;
+}
+
+.paddingCenter2{
+  padding-top: 150px;
 }
 
 .sansserif {
@@ -62,17 +85,41 @@ body:{
 
 .faceshop{
   position: absolute;
-  top: 45%;
-  left: 13%;
+  top: 55%;
+  left: 17%;
   display: inline-block;
 }
 
 .faceshop2{
   position: absolute;
-  top: 13%;
+  top: 18%;
   left: 25%;
   display: inline-block;
   z-index: -1;
+}
+
+.faceshopeye{
+  position: absolute;
+  top: 120%;
+  left: 85%;
+  display:inline-block;
+  z-index: 1;
+}
+
+.faceshopear{
+  position: absolute;
+  top: 120%;
+  left: 95%;
+  display:inline-block;
+  z-index: 1;
+}
+
+.faceshopmouth{
+  position: absolute;
+  top: 120%;
+  left: -5%;
+  display:inline-block;
+  z-index: 1;
 }
 
 .dropshadow{
@@ -93,6 +140,20 @@ body:{
   display:inline-block;
 }
 
+.goback2{
+  position: absolute;
+  top: 140%;
+  left: -20%;
+  display: inline-block;
+}
+
+.goback3{
+  position: absolute;
+  top: 153%;
+  left: -20%;
+  display: inline-block;
+}
+
 .eyefolder{
   position: absolute;
   top:100%;
@@ -100,10 +161,25 @@ body:{
   display:inline-block;
 }
 
+.eyefolder2{
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  display:inline-block;
+  z-index:
+}
+
 .earfolder{
   position: absolute;
   top:150%;
   left: -75%;
+  display:inline-block;
+}
+
+.earfolder2{
+  position: absolute;
+  top: 70%;
+  left: 112%;
   display:inline-block;
 }
 
@@ -114,11 +190,31 @@ body:{
   display:inline-block;
 }
 
+.nosefolder2{
+  position: absolute;
+  top: 30%;
+  left: 112%;
+  display:inline-block;
+}
+
 .mouthfolder{
   position: absolute;
-  top:200%;
+  top: 200%;
   left: -75%;
   display:inline-block;
+}
+
+.mouthfolder2{
+  position: absolute;
+  top: 50%;
+  left: 112%;
+  display:inline-block;
+}
+
+.transparentDiv{
+  position: relative;
+  height: 200px;
+  color: white;
 }
 
 #maincontainer{
@@ -135,11 +231,6 @@ body:{
   position: relative;
 }
 
-.pinkDiv{
-  position: relative;
-  height: 200px;
-}
-
 /* flexboxstuff */
 
 .row{
@@ -147,4 +238,18 @@ body:{
   position: relative;
   display: flex;
   flex-wrap: wrap;
+}
+
+.pinkDiv{
+  position: relative;
+  flex: 1;
+  height: 200px;
+  color: white;
+}
+
+.blueDiv{
+  position: relative;
+  flex: 1;
+  height: 200px;
+  color: white;
 }
