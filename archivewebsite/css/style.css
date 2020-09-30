@@ -52,12 +52,56 @@ body{
   color: black;
 }
 
+.ParagraphText2{
+  position: relative;
+  top: 135%;
+  left: 87%;
+  font-size: 15px;
+  color: black;
+}
+
+.ParagraphText3{
+  position: absolute;
+  top: 122%;
+  left: 100.5%;
+  font-size: 15px;
+  color: black;
+  z-index: 2
+}
+
+.ParagraphText4{
+  position: absolute;
+  top: 120%;
+  left: 100%;
+  font-size: 15px;
+  color: black;
+  z-index: 2
+}
+
+.ParagraphText5{
+  position: absolute;
+  top: 140%;
+  left: 8%;
+  font-size: 15px;
+  color: black;
+  z-index: 2
+}
+
+.ParagraphText6{
+  position: absolute;
+  top: 130%;
+  left: 109%;
+  font-size: 15px;
+  color: black;
+  z-index: 2
+}
+
 .CenteredText{
   text-align: center;
 }
 
 a:link {
-  color: white;
+  color: hotpink;
 }
 
 a:visited {
@@ -69,7 +113,7 @@ a:hover {
 }
 
 a:active {
-  color: white;
+  color: hotpink;
 }
 
 .center{
@@ -126,7 +170,7 @@ a:active {
 
 .faceshopeye{
   position: absolute;
-  top: 120%;
+  top: 110%;
   left: 85%;
   display:inline-block;
   z-index: 1;
@@ -148,19 +192,27 @@ a:active {
   z-index: 1;
 }
 
+.pixelatedImage{
+  position: absolute;
+  top: 103%;
+  left: 117%;
+  display: inline-block;
+  z-index: 1;
+}
+
 .dropshadow{
   filter: drop-shadow(8px 8px 10px gray);
 }
 
 .rawimages{
   position: absolute;
-  top: 36.7%;
-  left: 64%;
+  top: 39%;
+  left: 63%;
   display:inline-block;
 }
 
 .goback{
-  position: fixed;
+  position: absolute;
   top: 290%;
   left: 160%;
   display:inline-block;
@@ -168,7 +220,7 @@ a:active {
 
 .goback2{
   position: absolute;
-  top: 140%;
+  top: 137%;
   left: -20%;
   display: inline-block;
 }
